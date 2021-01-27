@@ -20,10 +20,10 @@ namespace GettingStarted
         {
             TransactionCommmand = new Command(DoTransaction);
         }
-        
+
         private void DoTransaction()
         {
-            App.Current.MainPage.DisplayAlert("Hello","Transaction is Initiated ","Ok");
+            App.Current.MainPage.DisplayAlert("Hello", "Transaction is Initiated ", "Ok");
         }
     }
 }
